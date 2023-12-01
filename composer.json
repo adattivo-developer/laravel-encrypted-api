@@ -1,5 +1,5 @@
 {
-	"name": "kbs1/laravel-encrypted-api",
+	"name": "adattivo-developer/laravel-encrypted-api",
 	"description": "Encrypted API requests and responses between Laravel applications.",
 	"type": "library",
 	"license": "MIT",
