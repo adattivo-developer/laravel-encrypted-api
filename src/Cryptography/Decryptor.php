@@ -12,7 +12,7 @@ class Decryptor extends Base
 		$this->verifySignature($input);
 		$decrypted = $this->decryptData($input);
 		$this->checkIdFormat($decrypted->id);
-		$this->verifyTimestamp($decrypted);
+		//$this->verifyTimestamp($decrypted);
 
 		return $decrypted;
 	}
